@@ -12,10 +12,10 @@ const Index = () => {
         <div className="container mx-auto px-4 py-20 md:py-32 relative">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent">
-              Daily plans you'll actually follow.
+              Task Sync: Achieve Goals, Explore New Hobbies
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Task Sync turns your goals into simple, scheduled steps and even nudges you to try new hobbies — so you can stay consistent without burnout.
+              Plan your daily tasks and explore new hobbies, all while staying on track with reminders and smart scheduling.
             </p>
             <Button size="lg" className="text-lg px-8 py-6 shadow-soft hover:shadow-lg transition-all">
               Get Early Access
@@ -31,7 +31,7 @@ const Index = () => {
             <Card className="p-8 shadow-card">
               <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                 <div className="text-center md:text-left">
-                  <div className="text-3xl font-bold text-primary mb-2">4.8/5</div>
+                  <div className="text-3xl font-bold text-primary mb-2">⭐️⭐️⭐️⭐️⭐️ 4.8/5</div>
                   <p className="text-muted-foreground">from 1,200 students last month</p>
                 </div>
                 <div className="border-l-0 md:border-l-2 border-border pl-0 md:pl-6 text-center md:text-left">
