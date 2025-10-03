@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { CheckCircle2, Target, Calendar, TrendingUp, Zap, BarChart } from "lucide-react";
+import appMockup from "@/assets/app-mockup.png";
 
 const Index = () => {
   return (
@@ -10,16 +11,27 @@ const Index = () => {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-hero opacity-10" />
         <div className="container mx-auto px-4 py-20 md:py-32 relative">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent">
-              Task Sync: Achieve Goals, Explore New Hobbies
-            </h1>
-            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Plan your daily tasks and explore new hobbies, all while staying on track with reminders and smart scheduling.
-            </p>
-            <Button size="lg" className="text-lg px-8 py-6 shadow-soft hover:shadow-lg transition-all">
-              Get Early Access
-            </Button>
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="text-center md:text-left">
+                <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent">
+                  Task Sync: Achieve Goals, Explore New Hobbies
+                </h1>
+                <p className="text-lg md:text-xl text-muted-foreground mb-8">
+                  Plan your daily tasks and explore new hobbies, all while staying on track with reminders and smart scheduling.
+                </p>
+                <Button size="lg" className="text-lg px-8 py-6 shadow-soft hover:shadow-lg transition-all">
+                  Get Early Access
+                </Button>
+              </div>
+              <div className="flex justify-center md:justify-end">
+                <img 
+                  src={appMockup} 
+                  alt="Task Sync app showing Study tasks and Jiu-Jitsu tasks" 
+                  className="max-w-sm w-full h-auto rounded-2xl shadow-card"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
