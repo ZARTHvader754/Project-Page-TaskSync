@@ -11,7 +11,7 @@ Task Sync is designed to solve the problem of scattered to-dos and inconsistent 
 - **Netlify** (deployment & hosting)  
 
 ## Live Demo
-🔗 [Live Site](https://<your-netlify-subdomain>.netlify.app)  
+🔗 [Live Site](https://taskssync.netlify.app/)  
 🔗 [GitHub Repo](https://github.com/ZARTHvader754/project-page-TaskSync)  
 
 ## Features
