@@ -15,7 +15,7 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="text-center md:text-left">
                 <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent">
-                  Task Sync: Achieve Goals, Explore New Hobbies
+                  Taskly: Achieve Goals, Explore New Hobbies
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground mb-8">
                   Plan your daily tasks and explore new hobbies, all while staying on track with reminders and smart scheduling.
@@ -27,7 +27,7 @@ const Index = () => {
               <div className="flex justify-center md:justify-end">
                 <img 
                   src={appMockup} 
-                  alt="Task Sync app showing Study tasks and Jiu-Jitsu tasks" 
+                  alt="Taskly app showing Study tasks and Jiu-Jitsu tasks" 
                   className="max-w-sm w-full h-auto rounded-2xl shadow-card"
                 />
               </div>
@@ -108,7 +108,7 @@ const Index = () => {
                 {
                   step: "2",
                   title: "Break into steps",
-                  description: "Task Sync creates micro-tasks that fit your day.",
+                  description: "Taskly creates micro-tasks that fit your day.",
                 },
                 {
                   step: "3",
@@ -140,7 +140,7 @@ const Index = () => {
               <div className="space-y-4">
                 <p className="text-lg font-semibold">Areeb, 3rd-year student:</p>
                 <blockquote className="text-lg italic border-l-4 border-primary pl-6">
-                  "Task Sync helped me cut missed tasks by 22% in just two weeks. I finally added 2 weekly guitar sessions without falling behind on studies."
+                  "Taskly helped me cut missed tasks by 22% in just two weeks. I finally added 2 weekly guitar sessions without falling behind on studies."
                 </blockquote>
               </div>
             </Card>
@@ -156,7 +156,7 @@ const Index = () => {
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">
                 <AccordionTrigger className="text-left">
-                  Will Task Sync overwhelm me?
+                  Will Taskly overwhelm me?
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground">
                   No — it keeps tasks short (10–30 minutes) and lets you cap daily sessions.
@@ -265,7 +265,7 @@ const Index = () => {
       <footer className="py-8 border-t border-border">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-            <p>© 2025 Task Sync. All rights reserved.</p>
+            <p>© 2025 Taskly. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-foreground transition-colors">
                 Privacy Policy
